@@ -5,8 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "start:dev": "nodemon server.js",
-    "web": "node index.js"
+    "start:dev": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
