@@ -13,7 +13,7 @@ const handleClarifaiApiCall = (req, res) => {
     .catch((err) => {
       res.status(400).json("Error working with api");
     });
-};
+}; 
 
 const handleImage = (req, res, db) => {
   const { id } = req.body;
